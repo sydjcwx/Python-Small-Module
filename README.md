@@ -2,7 +2,7 @@
 python小模块
 ## 安装方式：
 
-下载dist文件夹下的Python-Small-Module-1.0.tar.gz，cd到存放此文件的路径,
+下载dist文件夹下的PythonSmallModule-1.0.tar.gz，cd到存放此文件的路径,
 pip install PythonSmallModule-1.0.tar.gz
 
 ## 说明：
