@@ -1,24 +1,4 @@
 # coding=utf-8
-'''
-自定义python小模块
-环境：python3
-
-加密、解密 模块：
-urlencode --- url编码
-urldecode --- url解码
-md5       --- md5加密
-b64encode --- base64加密
-b64dncode --- base64解密
-
-字符串解码模块：
-ncrdecode --- NCR字符串解码  --> # &#x  开头  解码  :  以 &# 或 &#x 开头的字符串叫做 NCR 字符
-udecode--> 'li\u003eTurn'  解码
-
-获取时间日期相关模块：
-
-
-
-'''
 import hashlib
 import base64
 import six
