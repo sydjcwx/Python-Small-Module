@@ -41,17 +41,3 @@ decryption开头的函数，全部为解密函数：
 
 
 
-
-## 自定义代码打包方式，供别人pip安装
-
-：
-pycharm里右键 -- new -- Python Packpage，我起名为PythonSmallModule
-然后在新生成的PythonSmallModule文件夹里，新建python-small-module.py文件，里边写入自己的代码。
-在PythonSmallModule文件夹同级目录下，新建setup.py文件，内容参照里边去写。
-然后，在此处打开命令行
-输入 python setup.py build
-输入 python setup.py sdist
-最后会生成如下图示
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20191112175522178.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2wxMTU5MDE1ODM4,size_16,color_FFFFFF,t_70)
-最后
-pip install PythonSmallModule-1.0.tar.gz 
