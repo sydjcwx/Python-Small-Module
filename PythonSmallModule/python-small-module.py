@@ -290,7 +290,7 @@ if __name__ == '__main__':
     b = r'\u4eba\u751f\u82e6\u77ed\uff0cpy\u662f\u5cb8'
     print(p.decoding_unicode_str(b))
 
-    # print(p.date_ago_days(days=10, the_day=0))
+    print(p.date_ago_days(days=10, the_day=0))
     # print(p.date_ago_date('2019-11-12', days=0))
     # print((p.date_month_has_days('2019-11')))
     # print(p.date_week_first_last())
